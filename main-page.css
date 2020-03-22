@@ -1,0 +1,38 @@
+  #form-group{
+    margin: 0 auto;
+  }
+  
+  td{
+    text-align: center;
+  }
+
+  .tr{
+    width: 100%;
+  }
+
+  #search{
+    padding-left: 100px;
+  }
+
+  .form-group{
+    margin-left: 3px;
+  }
+
+  .v-enter,
+  .v-leave-to{
+    opacity:0;
+    transform : translateY(80px);
+  }
+  
+  .v-enter-active,
+  .v-leave-active{
+    transition: all 0.7s ease;
+  }
+  
+  .v-move{
+    transition: all 0.7s ease;
+  }
+  
+  .v-leave-active{
+    position: absolute;
+  }
